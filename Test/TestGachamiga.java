@@ -12,6 +12,10 @@ public class TestGachamiga {
         Assertions.assertEquals("1",result);
     }
 
-
+    @Test
+    public void  testFor2(){
+        result= g.cocinar(2);
+        Assertions.assertEquals("2",result);
+    }
 
 }
