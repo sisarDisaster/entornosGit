@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 public class TestGachamiga {
 
-    Gachamiga g = new Gachamiga(); //creo un objeto gachamiga para poder usar su función multiplos.
+    Gachamiga g = new Gachamiga(); 
     String result;
 
     @Test
@@ -28,5 +28,9 @@ public class TestGachamiga {
         result= g.cocinar(4);
         Assertions.assertEquals("4",result);
     }
-
+    @Test
+    public void testFor5(){
+        result= g.cocinar(5);
+        Assertions.assertEquals("Miga",result);
+    }
 }
