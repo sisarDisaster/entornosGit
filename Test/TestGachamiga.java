@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 public class TestGachamiga {
 
-    Gachamiga g = new Gachamiga(); 
+    Gachamiga g = new Gachamiga();
     String result;
 
     @Test
@@ -33,4 +33,15 @@ public class TestGachamiga {
         result= g.cocinar(5);
         Assertions.assertEquals("Miga",result);
     }
+    @Test
+    public void testFor6(){
+        result= g.cocinar(6);
+        Assertions.assertEquals("Gacha",result);
+    }
+    @Test
+    public void testFor7(){
+        result= g.cocinar(7);
+        Assertions.assertEquals("7",result);
+    }
+
 }
