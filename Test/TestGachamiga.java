@@ -18,4 +18,10 @@ public class TestGachamiga {
         Assertions.assertEquals("2",result);
     }
 
+    @Test
+    public void testFor3(){
+        result= g.cocinar(3);
+        Assertions.assertEquals("Gacha",result);
+    }
+
 }
