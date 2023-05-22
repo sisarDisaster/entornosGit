@@ -1,13 +1,18 @@
 public class Gachamiga {
+    String resultado;
     public String hacerGachamiga(int n){
         if(n%3==0 && n%5==0){
-            return "Gachamiga";
+            resultado= "Gachamiga";
         }else if(n%3==0){
-            return "Gacha";
+            resultado= "Gacha";
         }else if(n%5==0){
-            return "Miga";
-        }else
-        return "" +n;
+            resultado= "Miga";
+        }else{
+        resultado= "" +n;
+        }
+
+        return resultado;
     }
+
 
 }
