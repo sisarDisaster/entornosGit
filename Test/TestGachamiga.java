@@ -83,4 +83,9 @@ public class TestGachamiga {
         result= g.cocinar(15);
         Assertions.assertEquals("Gachamiga",result);
     }
+    @Test
+    public void testFor30(){
+        result= g.cocinar(30);
+        Assertions.assertEquals("Gachamiga",result);
+    }
 }
